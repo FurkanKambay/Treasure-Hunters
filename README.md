@@ -1,7 +1,7 @@
-# Treasure Hunt
+# Treasure Hunters
 
 A turn-based virtual board game set around finding treasure and sabotaging your opponents.
-**Not yet fully implemented.**
+**Not yet fully implemented**
 
 The game concept was created as part of a university course with my 3 teammates, Martynas Ramonas​, Arnas Parafinovicius, and Tomas Dailide. We designed an actual board game for the course, and I developed this prototype so we could quickly playtest. I am really proud of our concept, our execution of it and this prototype I developed, which I intend to improve. The initial commit was developed over four days. 
 
@@ -20,11 +20,11 @@ Turn order is determined via dice roll. Each turn, the player rolls a die to det
 - Artifact cells give you a random Artifact from the Artifact pile,
 - Wheel cells either give you a random Artifact/Curse or makes you gain/lose some treasure.
 
-After a cell if revealed, its effects are disabled for the rest of the game. (A cell cannot be used twice.) Each turn, players have the option of using one of the Artifacts in their hand. Some Artifacts are additional to the regular movement while some override the movement.
+After a cell is revealed, its effects are disabled for the rest of the game. (A cell cannot be used twice.) Each turn, players have the option of using one of the Artifacts in their hand. Some Artifacts are additional to the regular movement while some override the movement.
 
 ### Artifacts
 
-Artifacts are positive action cards that the player may use on their turn. Artifacts should be hidden from opponents.
+Artifacts are action cards that the players add to their hand and may use at the start of their turn. Once an Artifact is used, it's discarded. Artifacts should be hidden from opponents.
 
 - Move an extra cell
 - Move through an obstacle
@@ -36,9 +36,9 @@ Artifacts are positive action cards that the player may use on their turn. Artif
 
 ### Curses
 
-Curses are immediate negative effects applied on the player. In the initial version, the only way to get a Curse is through the Wheel cell. There should probably be Curse cells on the map for the future.
+Curses are immediate negative effects applied to the player. In the current version, the only way to get a Curse is on a Wheel cell. There should probably be Curse cells on the map in the future.
 
-- Move one less cell on your next turn
+- Move 1 less cell on your next turn
 - Other players may each reveal 2 tiles around them
 - Give away treasure to the next player
 - Give away an Artifact to the next player
