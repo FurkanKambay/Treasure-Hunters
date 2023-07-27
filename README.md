@@ -1,7 +1,7 @@
 # Treasure Hunters
 
 A turn-based virtual board game set around finding treasure and sabotaging your opponents.
-**Not yet fully implemented**
+**Not fully implemented**
 
 The game concept was created as part of a university course with my 3 teammates, Martynas Ramonas​, Arnas Parafinovicius, and Tomas Dailide. We designed an actual board game for the course, and I developed this prototype so we could quickly playtest. I am really proud of our concept, our execution of it and this prototype I developed, which I intend to improve. The initial commit was developed over four days. 
 
