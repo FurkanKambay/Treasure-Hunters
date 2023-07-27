@@ -7,7 +7,7 @@
 *.txt eol=lf
 
 # Vendored path
-Assets/TextMesh[[:space:]]Pro/** linguist-vendored
+Assets/Plugins/** linguist-vendored
 
 # Unity files
 *.meta eol=lf merge=unityyamlmerge

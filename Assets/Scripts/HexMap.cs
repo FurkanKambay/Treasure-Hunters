@@ -118,9 +118,9 @@ namespace Game
             return grid.WorldToCell(new Vector3(mouseWorldPos.x, mouseWorldPos.y, 0));
         }
 
-        private void OnDrawGizmos()
+        private void OnDrawGizmosSelected()
         {
-            Gizmos.color = Color.red;
+            Gizmos.color = Color.white;
             foreach (var cell in GetAvailableCells())
                 Gizmos.DrawSphere(grid.CellToWorld(cell), .1f);
         }
